@@ -1,0 +1,25 @@
+
+body {
+    background-color: aliceblue;
+}
+
+.navwrapper {
+    display: flex;
+    background-color: antiquewhite;
+    font-size: 15px;
+
+}
+.left-side {
+    float: left;
+}
+.right-side {
+    float: right;
+}
+#navpfp {
+    max-width: 10%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
