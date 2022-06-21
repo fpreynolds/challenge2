@@ -1,25 +1,93 @@
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body {
     background-color: aliceblue;
 }
 
+/* nav bar */
+
 .navwrapper {
     display: flex;
     background-color: antiquewhite;
-    font-size: 15px;
-
+    font-size: 25px;
+    position: absolute;
+}
+.navwrapper h1{
+    display:inline;
+    line-height: 15px;
+    
 }
 .left-side {
+    display: flex;
     float: left;
+}
+.left-side h1{
+    margin-top: 75px;
 }
 .right-side {
     float: right;
+    margin-top: 30px;
+    margin-right: 15px;
 }
 #navpfp {
     max-width: 10%;
+    margin: 15px;
 }
-
+/* body */
 .justify-center {
     justify-content: center;
 }
+
+
+/* bio */
+.bio {
+    display: block;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bio img {
+    max-width: 60%;
+    margin-left: 25px auto;
+}
+
+/* portfolio */
+.portfolio-section {
+    display: flex;
+    width:90%;
+    margin: 25px auto;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.portfolio-section .column {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column.first {
+    background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project1.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: auto;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    
+}
+.column.second {
+    background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project2.jpg?raw=true");
+    flex-basis: 50%;
+    background-size: auto;
+}
+.column.third {
+    background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project3.jpg?raw=true");
+    flex-basis: 50%;
+    background-size: auto;
+}
+
+
+/* contact */
+
 
