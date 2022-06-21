@@ -7,6 +7,17 @@
 body {
     background-color: aliceblue;
 }
+.justify-center {
+    justify-content: center;
+}
+main {
+    padding: 60px 0;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
 
 /* nav bar */
 
@@ -37,10 +48,6 @@ body {
     max-width: 10%;
     margin: 15px;
 }
-/* body */
-.justify-center {
-    justify-content: center;
-}
 
 
 /* bio */
@@ -50,11 +57,17 @@ body {
     margin-top: 60px;
 }
 .bio img {
-    max-width: 60%;
+    max-width: 30%;
     margin-left: 25px auto;
 }
 
 /* portfolio */
+.port-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
 .portfolio-section {
     display: flex;
     width:90%;
@@ -69,20 +82,20 @@ body {
 }
 
 .column.first {
-    background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project1.jpg?raw=true");
+    /* background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project1.jpg?raw=true");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: auto; */
     flex-basis: 100%;
     box-sizing: border-box;
     
 }
 .column.second {
-    background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project2.jpg?raw=true");
+    /* background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project2.jpg?raw=true"); */
     flex-basis: 50%;
     background-size: auto;
 }
 .column.third {
-    background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project3.jpg?raw=true");
+    /* background-image: url("https://github.com/fpreynolds/challenge2/blob/main/assets/images/project3.jpg?raw=true"); */
     flex-basis: 50%;
     background-size: auto;
 }
