@@ -48,11 +48,15 @@ header {
     max-width: 10%;
     margin: 15px;
 }
-main {
-    margin-top: 60px;
-}
+
 
 /* portfolio */
+.workbox {
+    margin: 25px;
+    padding: 15px;
+    justify-content: center;
+}
+
 .port-text {
     position: absolute;
     bottom: 25px;
@@ -99,7 +103,8 @@ main {
 .bio {
     display: block;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .bio img {
     max-width: 30%;
@@ -109,8 +114,50 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+.bio h2 {
+    margin-left: 25px;
+}
+.bio p {
+    margin-left: 25px;
+}
 /* contact */
 .contact-section {
     margin-left: 25px;
 }
 
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+    .main {
+        margin-top: 25px;
+    }
+    .navwrapper h1 {
+      font-size: 15px;
+      margin-left: 10px;
+      position: absolute;
+      bottom: 35px;
+      left: 75px;
+    }
+    .navwrapper img {
+        min-width: 60px;
+        position: relative
+    }
+    .navwrapper .right-side {
+        font-size: 15px;
+        position: relative;
+    }
+    .navwrapper .right-side ul{
+        position: absolute;
+        bottom: 12px;
+        right: 15px;
+    }
+    .port-text {
+        font-size: 10px;
+        bottom: 10px;
+        left: 10px
+    }
+    .port-text p {
+        display: none;
+    }
+    
+}
