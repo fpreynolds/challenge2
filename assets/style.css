@@ -52,24 +52,15 @@ main {
     margin-top: 60px;
 }
 
-/* bio */
-.bio {
-    display: block;
-    justify-content: center;
-    margin-top: 60px;
-}
-.bio img {
-    max-width: 30%;
-    margin-left: 25px auto;
-}
-
 /* portfolio */
 .port-text {
     position: absolute;
     bottom: 25px;
     left: 25px;
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px
 }
 
 .column {
@@ -104,7 +95,22 @@ main {
     background-size: auto;
 }
 
-
+/* bio */
+.bio {
+    display: block;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bio img {
+    max-width: 30%;
+    margin-left: 25px;
+}
+.biography {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* contact */
-
+.contact-section {
+    margin-left: 25px;
+}
 
