@@ -7,4 +7,4 @@ https://github.com/fpreynolds/challenge2
 and the lauched application url is:
 https://fpreynolds.github.io/challenge2/
 
-<!-- screenshot here -->
+![screenshot of application](https://github.com/fpreynolds/challenge2/blob/main/assets/images/screenshot.png?raw=true)
